@@ -135,8 +135,18 @@ export default function Home() {
                 </li>
               </ul>
               
-              <div className="pt-4">
+              <div className="pt-4 flex flex-wrap items-center gap-3">
                 <Badge variant="outline" className="rounded-none border-primary text-primary bg-primary/10">2026–Present Contributor</Badge>
+                <a 
+                  href="https://github.com/Rishabh060105/accord-impl-gsoc" 
+                  target="_blank" 
+                  rel="noreferrer"
+                  className="inline-flex items-center gap-2 font-mono text-xs text-muted-foreground hover:text-primary transition-colors border border-border/50 hover:border-primary/50 px-3 py-1"
+                >
+                  <SiGithub className="w-3 h-3" />
+                  accord-impl-gsoc
+                  <ExternalLink className="w-3 h-3" />
+                </a>
               </div>
             </div>
 
